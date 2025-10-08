@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Contact Form Demo</title>
+</head>
+<body>
+<h1>📞 Contact Form Demo</h1>
+<section>
+  <h2>Contact</h2>
+  <form id="contactForm">
+    <input name="name" placeholder="ชื่อ-นามสกุล" required>
+    <input name="email" placeholder="อีเมล" required>
+    <input name="phone" placeholder="เบอร์โทร (ไม่บังคับ)">
+    <input name="company" placeholder="บริษัท (ไม่บังคับ)">
+    <input name="subject" placeholder="หัวเรื่อง" required>
+    <textarea name="message" placeholder="ข้อความ" required></textarea>
+    <button type="submit">ส่ง</button>
+  </form>
+</section>
+
+<section>
+  <h2>Feedback</h2>
+  <form id="feedbackForm">
+    <input name="rating" type="number" min="1" max="5" value="3" required>
+    <textarea name="comment" placeholder="ความคิดเห็น" required></textarea>
+    <input name="email" placeholder="อีเมล (ไม่บังคับ)">
+    <button type="submit">ส่งความเห็น</button>
+  </form>
+</section>
+
+<div id="status"></div>
+<script src="script.js"></script>
+</body>
+</html>

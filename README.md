@@ -1,1 +1,1 @@
-# lab-4-1-basic-server
+# NodeJS Labs (4.1 - 4.3)
